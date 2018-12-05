@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Topic
-from django.http import HttpResonseRedirect
-from django.core.urlresolvers import reverse
+from django.http import HttpResponseRedirect
+from django.urls import reverse
 from .forms import TopicForm 
 
 def index(request):
